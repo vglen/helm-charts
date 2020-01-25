@@ -1,0 +1,22 @@
+{{- if .Values.ingress.enabled -}}
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  annotations:
+    kubernetes.io/ingress.class: argo-tunnel
+  labels:
+    ingress: argo-tunnel
+  name: blog
+spec:
+  tls:
+  - hosts:
+    - blog.glen.dev
+    secretName: glen-dev-tunnel-cert
+  rules:
+  - host: blog.glen.dev
+    http:
+      paths:
+      - backend:
+          serviceName: blog
+          servicePort: http
+{{- end}}
