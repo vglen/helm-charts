@@ -9,6 +9,7 @@ spec:
   replicas: {{ .Values.replicaCount }}
   selector:
     matchLabels:
+      app: {{ template "blog.name" . }}
       {{- include "blog.selectorLabels" . | nindent 6 }}
   template:
     metadata:
