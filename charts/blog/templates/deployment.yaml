@@ -3,6 +3,7 @@ kind: Deployment
 metadata:
   name: {{ include "blog.fullname" . }}
   labels:
+    app: {{ template "blog.name" . }}
     {{- include "blog.labels" . | nindent 4 }}
 spec:
   replicas: {{ .Values.replicaCount }}
