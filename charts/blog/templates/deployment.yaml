@@ -14,6 +14,7 @@ spec:
   template:
     metadata:
       labels:
+        app: {{ template "blog.name" . }}
         {{- include "blog.selectorLabels" . | nindent 8 }}
     spec:
     {{- with .Values.imagePullSecrets }}

@@ -2,10 +2,20 @@ apiVersion: v1
 entries:
   blog:
   - apiVersion: v2
-    appVersion: 1.0.2
-    created: "2020-01-26T19:26:29.729566-06:00"
+    appVersion: 1.0.3
+    created: "2020-01-26T19:34:10.597702-06:00"
     description: A Helm chart for a hugo blog with argo ingress.
-    digest: 919a746373ee8d1defed10caf91284c7245dd1c222403eeec2a5fc91912c5ff6
+    digest: 2f877cd32d6aefce0420a9ad92f2e7e23d8f454ca2fbb0c4163c9ea535f64592
+    name: blog
+    type: application
+    urls:
+    - https://charts.glen.dev/blog-1.0.3.tgz
+    version: 1.0.3
+  - apiVersion: v2
+    appVersion: 1.0.2
+    created: "2020-01-26T19:34:10.597246-06:00"
+    description: A Helm chart for a hugo blog with argo ingress.
+    digest: 23bf008d8e0b2b4d8046d34d4e0d0c3edc5063ebdbab7e882ec9fec68b556439
     name: blog
     type: application
     urls:
@@ -13,7 +23,7 @@ entries:
     version: 1.0.2
   - apiVersion: v2
     appVersion: 1.0.1
-    created: "2020-01-26T19:26:29.729112-06:00"
+    created: "2020-01-26T19:34:10.596751-06:00"
     description: A Helm chart for a hugo blog with argo ingress.
     digest: 540cde5d9078989231affbfd32530df1547f1f99e277426cfdcd301cf7e2843f
     name: blog
@@ -23,7 +33,7 @@ entries:
     version: 1.0.1
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2020-01-26T19:26:29.728262-06:00"
+    created: "2020-01-26T19:34:10.595821-06:00"
     description: A Helm chart for Kubernetes
     digest: fee2a3ba31f78bda5cbd40fd50c83aeff7af489d5e58f0dbb27cfa2b72c29a8e
     name: blog
@@ -31,4 +41,4 @@ entries:
     urls:
     - https://charts.glen.dev/blog-1.0.0.tgz
     version: 1.0.0
-generated: "2020-01-26T19:26:29.724699-06:00"
+generated: "2020-01-26T19:34:10.59421-06:00"
