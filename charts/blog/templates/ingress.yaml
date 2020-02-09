@@ -11,7 +11,7 @@ spec:
   tls:
   - hosts:
     - blog.glen.dev
-    secretName: glen-dev-tunnel-cert
+    secretName: glen.dev
   rules:
   - host: blog.glen.dev
     http:
