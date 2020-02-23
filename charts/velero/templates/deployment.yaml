@@ -118,10 +118,10 @@ spec:
               value: {{ default "none" $value }}
           {{- end }}
           {{- end }}
-{{- if .Values.eks.enabled }}
+    {{ if .Values.eks.enabled }}
      securityContext:
         fsGroup: {{ .Values.eks.fsGgroup }}
-{{- end }}
+      {{ end }}
 {{- if .Values.initContainers }}
       initContainers:
         {{- toYaml .Values.initContainers | nindent 8 }}
