@@ -18,9 +18,7 @@ spec:
   template:
     metadata:
       labels:
-      {{- if .Values.eks.enabled }}
         app: {{ include "velero.fullname" . }}
-        {{ end }}
         app.kubernetes.io/name: {{ include "velero.name" . }}
         app.kubernetes.io/instance: {{ .Release.Name }}
         app.kubernetes.io/managed-by: {{ .Release.Service }}
