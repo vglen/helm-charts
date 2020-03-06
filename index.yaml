@@ -3,7 +3,7 @@ entries:
   blog:
   - apiVersion: v2
     appVersion: 1.0.4
-    created: "2020-03-04T20:39:10.909371-06:00"
+    created: "2020-03-05T20:17:28.237422-06:00"
     description: A Helm chart for a hugo blog with argo ingress.
     digest: 272b30691f4993c0c5ab59137f343442c15c779b29eea05425339fa7994ea63f
     name: blog
@@ -13,7 +13,7 @@ entries:
     version: 1.0.4
   - apiVersion: v2
     appVersion: 1.0.3
-    created: "2020-03-04T20:39:10.908473-06:00"
+    created: "2020-03-05T20:17:28.236653-06:00"
     description: A Helm chart for a hugo blog with argo ingress.
     digest: 2f877cd32d6aefce0420a9ad92f2e7e23d8f454ca2fbb0c4163c9ea535f64592
     name: blog
@@ -23,7 +23,7 @@ entries:
     version: 1.0.3
   - apiVersion: v2
     appVersion: 1.0.2
-    created: "2020-03-04T20:39:10.907801-06:00"
+    created: "2020-03-05T20:17:28.235943-06:00"
     description: A Helm chart for a hugo blog with argo ingress.
     digest: 23bf008d8e0b2b4d8046d34d4e0d0c3edc5063ebdbab7e882ec9fec68b556439
     name: blog
@@ -33,7 +33,7 @@ entries:
     version: 1.0.2
   - apiVersion: v2
     appVersion: 1.0.1
-    created: "2020-03-04T20:39:10.904149-06:00"
+    created: "2020-03-05T20:17:28.234876-06:00"
     description: A Helm chart for a hugo blog with argo ingress.
     digest: 540cde5d9078989231affbfd32530df1547f1f99e277426cfdcd301cf7e2843f
     name: blog
@@ -43,7 +43,7 @@ entries:
     version: 1.0.1
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2020-03-04T20:39:10.903183-06:00"
+    created: "2020-03-05T20:17:28.234125-06:00"
     description: A Helm chart for Kubernetes
     digest: fee2a3ba31f78bda5cbd40fd50c83aeff7af489d5e58f0dbb27cfa2b72c29a8e
     name: blog
@@ -54,7 +54,7 @@ entries:
   cluster-autoscaler:
   - apiVersion: v1
     appVersion: 1.14.6
-    created: "2020-03-04T20:39:10.911255-06:00"
+    created: "2020-03-05T20:17:28.239426-06:00"
     description: Scales worker nodes within autoscaling groups.
     digest: 9ac1a3cc936cb524ebd3b9c5fb3df88567f2b60ee21b2e5b9186f407321d5237
     home: https://github.com/kubernetes/autoscaler
@@ -74,7 +74,7 @@ entries:
   datadog:
   - apiVersion: v1
     appVersion: "7"
-    created: "2020-03-04T20:39:10.916725-06:00"
+    created: "2020-03-05T20:17:28.243309-06:00"
     dependencies:
     - condition: datadog.kubeStateMetricsEnabled
       name: kube-state-metrics
@@ -115,7 +115,7 @@ entries:
   harbor:
   - apiVersion: v1
     appVersion: 1.10.1
-    created: "2020-03-04T20:39:10.926315-06:00"
+    created: "2020-03-05T20:17:28.249943-06:00"
     description: An open source trusted cloud native registry that stores, signs,
       and scans content
     digest: 6c0ccbd99dd067c95e6228e22d1a16602fb47412189d3b8b8760664f7e16996a
@@ -134,7 +134,7 @@ entries:
     version: 1.3.2
   - apiVersion: v1
     appVersion: 1.10.1
-    created: "2020-03-04T20:39:10.923248-06:00"
+    created: "2020-03-05T20:17:28.247036-06:00"
     description: An open source trusted cloud native registry that stores, signs,
       and scans content
     digest: 51cde285b0461d4ca3830b6e12849852f0528cf70b4d496692ebbf0c3e13c733
@@ -159,7 +159,7 @@ entries:
   kube-state-metrics:
   - apiVersion: v1
     appVersion: 1.9.5
-    created: "2020-03-04T20:39:10.928936-06:00"
+    created: "2020-03-05T20:17:28.252701-06:00"
     description: Install kube-state-metrics to generate and expose cluster-level metrics
     digest: 3d6b2a25c8d7b88258343aeb3a618aa029d72591758fc052946ed60684b9e058
     home: https://github.com/kubernetes/kube-state-metrics/
@@ -183,7 +183,7 @@ entries:
     version: 2.8.0
   - apiVersion: v1
     appVersion: 1.9.5
-    created: "2020-03-04T20:39:10.927661-06:00"
+    created: "2020-03-05T20:17:28.251237-06:00"
     description: Install kube-state-metrics to generate and expose cluster-level metrics
     digest: 008c691f8299a7883f264061ea3b62ec917a3414aa8a5a38304fb4b61cb31eca
     home: https://github.com/kubernetes/kube-state-metrics/
@@ -208,7 +208,7 @@ entries:
   newrelic-infrastructure:
   - apiVersion: v1
     appVersion: 1.13.2
-    created: "2020-03-04T20:39:10.93003-06:00"
+    created: "2020-03-05T20:17:28.253873-06:00"
     description: A Helm chart to deploy the New Relic Infrastructure Agent as a DaemonSet
     digest: 7cbf2a3849e158aca6cde698521e3fb8354cf3b4ec0322a76e5c86905ca01547
     home: https://hub.docker.com/r/newrelic/infrastructure-k8s/
@@ -230,10 +230,38 @@ entries:
     urls:
     - https://charts.glen.dev/newrelic-infrastructure-0.13.24.tgz
     version: 0.13.24
+  prometheus:
+  - apiVersion: v1
+    appVersion: 2.16.0
+    created: "2020-03-05T20:17:28.260019-06:00"
+    dependencies:
+    - condition: kubeStateMetrics.enabled
+      name: kube-state-metrics
+      repository: https://kubernetes-charts.storage.googleapis.com/
+      version: 2.7.*
+    description: Prometheus is a monitoring system and time series database.
+    digest: 2c76cc4faa248496cfece5d58024195462ee448ee8d8f4cbb82debc6164e45f6
+    home: https://prometheus.io/
+    icon: https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png
+    maintainers:
+    - email: gianrubio@gmail.com
+      name: gianrubio
+    - email: zanhsieh@gmail.com
+      name: zanhsieh
+    name: prometheus
+    sources:
+    - https://github.com/prometheus/alertmanager
+    - https://github.com/prometheus/prometheus
+    - https://github.com/prometheus/pushgateway
+    - https://github.com/prometheus/node_exporter
+    - https://github.com/kubernetes/kube-state-metrics
+    urls:
+    - https://charts.glen.dev/prometheus-11.0.2.tgz
+    version: 11.0.2
   sealed-secrets:
   - apiVersion: v1
     appVersion: 0.9.7
-    created: "2020-03-04T20:39:10.931652-06:00"
+    created: "2020-03-05T20:17:28.261214-06:00"
     description: A Helm chart for Sealed Secrets
     digest: a0ef365d59483ea6b69d56e7d2160f38455a13659bdba0adf4791507caf3afbf
     home: https://github.com/bitnami-labs/sealed-secrets
@@ -250,7 +278,7 @@ entries:
   spot-termination-handler:
   - apiVersion: v1
     appVersion: 1.13.7-1
-    created: "2020-03-04T20:39:10.933618-06:00"
+    created: "2020-03-05T20:17:28.262248-06:00"
     description: The K8s Spot Termination handler handles draining AWS Spot Instances
       in response to termination requests.
     digest: b24c15cbfbb4aca9e0020d988b7e5ca90707c2ecffd01bbb2ccf912421c036cc
@@ -274,7 +302,7 @@ entries:
   velero:
   - apiVersion: v1
     appVersion: 1.2.0
-    created: "2020-03-04T20:39:10.945479-06:00"
+    created: "2020-03-05T20:17:28.270603-06:00"
     deprecated: true
     description: A Helm chart for velero
     digest: 77dc15ae5f46b6e078a1808938072128ed225c18ddd76d8235e9fa1324055bc7
@@ -288,7 +316,7 @@ entries:
     version: 2.8.0
   - apiVersion: v1
     appVersion: 1.2.0
-    created: "2020-03-04T20:39:10.943625-06:00"
+    created: "2020-03-05T20:17:28.268533-06:00"
     deprecated: true
     description: A Helm chart for velero
     digest: a02b1f410b563cff303428ba4be47110dfc18612173792c89cb89bec02d504a8
@@ -302,7 +330,7 @@ entries:
     version: 2.7.7
   - apiVersion: v1
     appVersion: 1.2.0
-    created: "2020-03-04T20:39:10.941681-06:00"
+    created: "2020-03-05T20:17:28.266962-06:00"
     deprecated: true
     description: A Helm chart for velero
     digest: 47e93170e3d82c3d4f65bce681fae857822eff476058bc02b429f7d37c9576af
@@ -316,7 +344,7 @@ entries:
     version: 2.7.6
   - apiVersion: v1
     appVersion: 1.2.0
-    created: "2020-03-04T20:39:10.93855-06:00"
+    created: "2020-03-05T20:17:28.265635-06:00"
     deprecated: true
     description: A Helm chart for velero
     digest: de774f175cc0b0571914684219f9a35e1b3e98aeffcd40d6c426dd27a60fba59
@@ -330,7 +358,7 @@ entries:
     version: 2.7.5
   - apiVersion: v1
     appVersion: 1.2.0
-    created: "2020-03-04T20:39:10.93572-06:00"
+    created: "2020-03-05T20:17:28.263738-06:00"
     deprecated: true
     description: A Helm chart for velero
     digest: e7c4a1437463d37d53b048333e38ea1bb05217d676b38d49eca98365841e3616
@@ -342,4 +370,4 @@ entries:
     urls:
     - https://charts.glen.dev/velero-2.7.4.tgz
     version: 2.7.4
-generated: "2020-03-04T20:39:10.901387-06:00"
+generated: "2020-03-05T20:17:28.232047-06:00"
