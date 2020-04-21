@@ -36,8 +36,6 @@ spec:
       {{- if .Values.dnsPolicy }}
       dnsPolicy: "{{ .Values.dnsPolicy }}"
       {{- end }}
-      securityContext:
-        fsGroup: {{ .Values.eks.fsGroup }}
       containers:
         - name: {{ template "cluster-autoscaler.name" . }}
         {{- if eq .Values.cloudProvider "spotinst" }}
@@ -193,7 +191,7 @@ spec:
       nodeSelector:
 {{ toYaml .Values.nodeSelector | indent 8 }}
     {{- end }}
-      serviceAccountName: {{ if .Values.rbac.create }}{{ template "cluster-autoscaler.fullname" . }}{{ else }}"{{ .Values.rbac.serviceAccountName }}"{{ end }}
+      serviceAccountName: {{ template "cluster-autoscaler.serviceAccountName" . }}
       tolerations:
 {{ toYaml .Values.tolerations | indent 8 }}
       {{- if .Values.securityContext }}
