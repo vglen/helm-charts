@@ -36,6 +36,8 @@ spec:
       {{- if .Values.dnsPolicy }}
       dnsPolicy: "{{ .Values.dnsPolicy }}"
       {{- end }}
+      securityContext:
+        fsGroup: {{ .Values.eks.fsGroup }}
       containers:
         - name: {{ template "cluster-autoscaler.name" . }}
         {{- if eq .Values.cloudProvider "spotinst" }}

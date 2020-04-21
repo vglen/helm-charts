@@ -1,3 +1,8 @@
+eks:
+  enabled: false
+  roleArn: ""
+  fsGroup: ""
+
 autoDiscovery:
 # Only cloudProvider `aws` and `gce` are supported by auto-discovery at this time
 # AWS: Set tags as described in https://github.com/kubernetes/autoscaler/blob/master/cluster-autoscaler/cloudprovider/aws/README.md#auto-discovery-setup
