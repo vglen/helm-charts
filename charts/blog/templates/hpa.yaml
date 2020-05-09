@@ -1,14 +1,14 @@
 apiVersion: autoscaling/v2beta1
 kind: HorizontalPodAutoscaler
 metadata:
-  name: {{ include "demo.fullname" . }}
+  name: {{ include "blog.fullname" . }}
   labels:
-    {{- include "demo.labels" . | nindent 4 }}
+    {{- include "blog.labels" . | nindent 4 }}
 spec:
   scaleTargetRef:
     apiVersion: apps/v1
     kind: Deployment
-    name: {{ include "demo.fullname" . }}
+    name: {{ include "blog.fullname" . }}
   minReplicas: {{ .Values.autoscaling.minReplicas }}
   maxReplicas: {{ .Values.autoscaling.maxReplicas }}
   metrics:
@@ -18,7 +18,7 @@ spec:
         metricName: nginx.net.request_per_s
         metricSelector:
           matchLabels:
-              kube_container_name: demo
+              kube_container_name: blog
         targetAverageValue: 3
   {{- end }}
 {{- end }}

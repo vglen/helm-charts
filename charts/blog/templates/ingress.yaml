@@ -1,5 +1,5 @@
 {{- if .Values.ingress.enabled -}}
-apiVersion: extensions/v1beta1
+apiVersion: networking.k8s.io/v1beta1
 kind: Ingress
 metadata:
   annotations:
@@ -10,10 +10,10 @@ metadata:
 spec:
   tls:
   - hosts:
-    - blog.glen.dev
-    secretName: glen.dev
+    - news.watercooler.wtf
+    secretName: news
   rules:
-  - host: blog.glen.dev
+  - host: news.watercooler.wtf
     http:
       paths:
       - backend:
