@@ -21,4 +21,3 @@ spec:
               kube_container_name: blog
         targetAverageValue: 3
   {{- end }}
-{{- end }}
