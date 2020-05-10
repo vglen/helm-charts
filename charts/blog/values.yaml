@@ -34,6 +34,7 @@ securityContext: {}
 service:
   type: ClusterIP
   port: 80
+  status_port: 22001
 
 ingress:
   enabled: true
