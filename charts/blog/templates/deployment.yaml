@@ -16,6 +16,10 @@ spec:
       labels:
         app: {{ template "blog.name" . }}
         {{- include "blog.selectorLabels" . | nindent 8 }}
+      annotations:
+{{- if .Values.podAnnotations }}
+{{ toYaml .Values.podAnnotations | indent 8 }}
+{{- end }}
     spec:
     {{- with .Values.imagePullSecrets }}
       imagePullSecrets:
