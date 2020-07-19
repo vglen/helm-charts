@@ -30,6 +30,8 @@ spec:
         component: {{ .Values.controller.name }}
         release: {{ .Release.Name }}
     spec:
+      tolerations:
+        {{- toYaml .Values.tolerations | trim | nindent 8 }}
       containers:
       - name: {{ template "argo-tunnel.name" . }}-{{ .Values.controller.name }}
         image: "{{ .Values.controller.image.repository }}:{{ .Values.controller.image.tag }}"

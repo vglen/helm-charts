@@ -31,3 +31,4 @@ secretMapping:
   create: false
   content:
     {}
+tolerations: []
