@@ -10,10 +10,10 @@ metadata:
 spec:
   tls:
   - hosts:
-    - news.watercooler.wtf
-    secretName: news
+    - blog.mpls.af
+    secretName: mpls.af
   rules:
-  - host: news.watercooler.wtf
+  - host: blog.mpls.af
     http:
       paths:
       - backend:
