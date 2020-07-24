@@ -87,7 +87,7 @@ tolerations:
   - key: "arch"
     operator: "Equal"
     value: "amd64"
-    effect: "NoSchedule"
+    effect: "PreferNoSchedule"
 
 # Annotations to be added to the pod
 podAnnotations: {}
