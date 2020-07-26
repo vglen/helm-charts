@@ -10,10 +10,10 @@ metadata:
 spec:
   tls:
   - hosts:
-    - nas.mpls.af
-    secretName: mpls.af
+    - {{ .Values.ingress.fqdn }}
+    secretName: {{ .Values.ingrss.secret }}
   rules:
-  - host: nas.mpls.af
+  - host: {{ .Values.ingress.fqdn }}
     http:
       paths:
       - backend:

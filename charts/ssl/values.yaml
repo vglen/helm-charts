@@ -40,6 +40,8 @@ deploy:
 
 ingress:
   enabled: true
+  secret: ""
+  fqdn: ""
   # annotations: 
   #    kubernetes.io/ingress.class: argo-tunnel
   # hosts:
