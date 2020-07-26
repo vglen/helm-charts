@@ -1,0 +1,22 @@
+{{- if .Values.ingress.enabled -}}
+apiVersion: networking.k8s.io/v1beta1
+kind: Ingress
+metadata:
+  annotations:
+    kubernetes.io/ingress.class: argo-tunnel
+  labels:
+    ingress: argo-tunnel
+  name: ssl
+spec:
+  tls:
+  - hosts:
+    - nas.mpls.af
+    secretName: mpls.af
+  rules:
+  - host: nas.mpls.af
+    http:
+      paths:
+      - backend:
+          serviceName: ssl
+          servicePort: http
+{{- end}}
