@@ -1,9 +1,9 @@
 # Default values for kube-state-metrics.
 prometheusScrape: true
 image:
-  repository: quay.io/coreos/kube-state-metrics
-  tag: v1.9.7
-  pullPolicy: IfNotPresent
+  repository: vglen/kube-state-metrics
+  tag: v1.9.7-arm64
+  pullPolicy: Always
 
 imagePullSecrets: []
 # - name: "image-pull-secret"
