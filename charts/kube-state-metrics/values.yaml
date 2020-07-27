@@ -5,8 +5,8 @@ image:
   tag: v1.9.7-arm64
   pullPolicy: Always
 
-imagePullSecrets: []
-# - name: "image-pull-secret"
+imagePullSecrets:
+ - name: "regcred"
 
 # If set to true, this will deploy kube-state-metrics as a StatefulSet and the data
 # will be automatically sharded across <.Values.replicas> pods using the built-in
