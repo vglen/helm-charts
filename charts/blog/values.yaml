@@ -23,6 +23,7 @@ service:
   status_port: 22001
 deploy:
   status_port: 22001
+  container_port: 8080
 
 ingress:
   enabled: true
