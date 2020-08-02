@@ -10,13 +10,13 @@ metadata:
 spec:
   tls:
   - hosts:
-    - blog.mpls.af
-    secretName: mpls.af
+    - {{ .Values.ingress.fqdn }}
+    secretName: {{ .Values.ingress.secret }}
   rules:
-  - host: blog.mpls.af
+  - host: {{ .Values.ingress.fqdn }}
     http:
       paths:
       - backend:
-          serviceName: blog
-          servicePort: http
+          serviceName: {{ .Values.ingress.serviceName }}
+          servicePort: {{ .Values.ingress.servicePort }}
 {{- end}}
