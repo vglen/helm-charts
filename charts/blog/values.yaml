@@ -19,6 +19,7 @@ securityContext: {}
 service:
   type: ClusterIP
   port: 80
+  targetport: 8080
   status_port: 22001
 deploy:
   status_port: 22001
