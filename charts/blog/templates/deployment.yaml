@@ -51,6 +51,37 @@ spec:
               port: http
           resources:
             {{- toYaml .Values.resources | nindent 12 }}
+        {{- if .Values.ingress.enabled -}}
+        - name: tunnel
+          image: "{{ .Values.sidecar.image.repository }}:{{ .Values.sidecar.image.tag }}"
+          imagePullPolicy: {{ .Values.sidecar.image.pullPolicy }}
+          command: ["cloudflared", "tunnel"]
+          args:
+          - --url=http://127.0.0.1:{{ .Values.deploy.container_port }}
+          - --hostname={{ .Values.ingress.fqdn }}
+          - --origincert=/etc/cloudflared/cert.pem
+          - --no-autoupdate
+          env:
+          - name: POD_NAME
+            valueFrom:
+              fieldRef:
+                fieldPath: metadata.name
+          - name: POD_NAMESPACE
+            valueFrom:
+              fieldRef:
+                fieldPath: metadata.namespace
+          volumeMounts:
+          - mountPath: /etc/cloudflared
+            name: tunnel-secret
+            readOnly: true
+          terminationGracePeriodSeconds: 60
+          volumes:
+          - name: tunnel-secret
+            secret:
+              secretName: glen.dev
+          resources:
+            {{- toYaml .Values.sidecar.resources | nindent 12 }}
+      {{- end }}
       {{- with .Values.nodeSelector }}
       nodeSelector:
         {{- toYaml . | nindent 8 }}
