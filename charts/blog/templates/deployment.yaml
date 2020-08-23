@@ -57,8 +57,8 @@ spec:
           imagePullPolicy: {{ .Values.sidecar.image.pullPolicy }}
           command: ["cloudflared", "tunnel"]
           args:
-          - --url=http://127.0.0.1:{{ .Values.deploy.container_port }}
-          - --hostname={{ .Values.ingress.fqdn }}
+          - --url=http://127.0.0.1:80
+          - --hostname=blog.glen.dev
           - --origincert=/etc/cloudflared/cert.pem
           - --no-autoupdate
           env:
