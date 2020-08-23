@@ -11,6 +11,8 @@ sidecar:
     repository: ""
     tag: ""
     pullPolicy: Always
+  deploy:
+    container_port: 80
 
 imagePullSecrets: []
 nameOverride: ""
@@ -31,9 +33,6 @@ service:
 deploy:
   status_port: 22001
   container_port: 8080
-sidecar:
-  deploy:
-    container_port: 8080
 
 ingress:
   enabled: false
