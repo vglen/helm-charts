@@ -5,22 +5,6 @@ image:
   tag: ""
   pullPolicy: Always
 
-sidecar:
-  enabled: true
-  image:
-    repository: ""
-    tag: ""
-    pullPolicy: Always
-  deploy:
-    container_port: 80
-  resources:
-    limits:
-      cpu: 10
-      memory: 20Mi
-    requests:
-      cpu: 10
-      memory: 20Mi
-
 imagePullSecrets: []
 nameOverride: ""
 fullnameOverride: ""
@@ -37,13 +21,12 @@ service:
   port: 80
   targetport: 8080
   status_port: 22001
-
 deploy:
   status_port: 22001
   container_port: 8080
 
 ingress:
-  enabled: false
+  enabled: true
   secret: ""
   fqdn: ""
   serviceName: ""
@@ -62,7 +45,3 @@ nodeSelector: {}
 tolerations: []
 
 affinity: {}
-
-autoscaling:
-  minReplicas: ""
-  maxReplicas: ""
