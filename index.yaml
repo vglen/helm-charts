@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   argo-tunnel:
   - apiVersion: v1
-    created: "2020-08-23T16:58:28.334451-05:00"
+    created: "2020-08-30T15:37:52.445869-05:00"
     description: Installs the cloudflare argo tunnel ingress controller
     digest: 6b4f72dd16efb1291f78d88132cc07c01a952491857357dd98ccb0763312a624
     home: https://developers.cloudflare.com/argo-tunnel/
@@ -14,7 +14,7 @@ entries:
     - https://charts.glen.dev/argo-tunnel-0.6.7.tgz
     version: 0.6.7
   - apiVersion: v1
-    created: "2020-08-23T16:58:28.330518-05:00"
+    created: "2020-08-30T15:37:52.444826-05:00"
     description: Installs the cloudflare argo tunnel ingress controller
     digest: 71830f6381cb63f1fd589ed082e35b3a7fd2ef6f0c6dac678f40b3a4c661ce3e
     home: https://developers.cloudflare.com/argo-tunnel/
@@ -27,8 +27,22 @@ entries:
     version: 0.6.6
   blog:
   - apiVersion: v2
+    appVersion: 6.0.4
+    created: "2020-08-30T15:37:52.464177-05:00"
+    description: A Helm chart for a hugo blog with argo ingress.
+    digest: 6da7be0ffe1eaec908f3beaa935f8414b32f1a6c90e12711e8519e2f1aa2d6c1
+    icon: https://blog.glen.dev/images/me.png
+    maintainers:
+    - email: glen@glen.dev
+      name: vglen
+    name: blog
+    type: application
+    urls:
+    - https://charts.glen.dev/blog-6.0.4.tgz
+    version: 6.0.4
+  - apiVersion: v2
     appVersion: 6.0.3
-    created: "2020-08-23T16:58:28.351392-05:00"
+    created: "2020-08-30T15:37:52.463705-05:00"
     description: A Helm chart for a hugo blog with argo ingress.
     digest: 8203ea3207717b224917deb8ef4a35185d709ee9c901db7976f8e7beeec50c50
     maintainers:
@@ -41,7 +55,7 @@ entries:
     version: 6.0.3
   - apiVersion: v2
     appVersion: 6.0.2
-    created: "2020-08-23T16:58:28.350483-05:00"
+    created: "2020-08-30T15:37:52.462974-05:00"
     description: A Helm chart for a hugo blog with argo ingress.
     digest: 256d05ae9f002101906786a11e8c21d9d7762fdccf06992fa7e75c9fb3bca98b
     maintainers:
@@ -54,7 +68,7 @@ entries:
     version: 6.0.2
   - apiVersion: v2
     appVersion: 6.0.1
-    created: "2020-08-23T16:58:28.349632-05:00"
+    created: "2020-08-30T15:37:52.462198-05:00"
     description: A Helm chart for a hugo blog with argo ingress.
     digest: 06d297de9a6475a6189e5e1f5a3b56469a143680c052b7d209aaa72480e0b617
     maintainers:
@@ -67,7 +81,7 @@ entries:
     version: 6.0.1
   - apiVersion: v2
     appVersion: 6.0.0
-    created: "2020-08-23T16:58:28.348905-05:00"
+    created: "2020-08-30T15:37:52.461429-05:00"
     description: A Helm chart for a hugo blog with argo ingress.
     digest: 371efe6d41bf8f2ce5b7c4af1b5e594bec515595918154712b1a23ca4022824e
     maintainers:
@@ -80,7 +94,7 @@ entries:
     version: 6.0.0
   - apiVersion: v2
     appVersion: 5.1.0
-    created: "2020-08-23T16:58:28.348014-05:00"
+    created: "2020-08-30T15:37:52.459842-05:00"
     description: A Helm chart for a hugo blog with argo ingress.
     digest: d8d5ec1096673f36a573808d7be88befcbf1bd3496c072f770d62ff084a2400f
     maintainers:
@@ -93,7 +107,7 @@ entries:
     version: 5.1.0
   - apiVersion: v2
     appVersion: 5.0.2
-    created: "2020-08-23T16:58:28.346588-05:00"
+    created: "2020-08-30T15:37:52.459075-05:00"
     description: A Helm chart for a hugo blog with argo ingress.
     digest: fb3ef8b46ac627db0415f81199691e0a669739728e1f2319958363ffc37cba46
     maintainers:
@@ -106,7 +120,7 @@ entries:
     version: 5.0.2
   - apiVersion: v2
     appVersion: 5.0.1
-    created: "2020-08-23T16:58:28.345798-05:00"
+    created: "2020-08-30T15:37:52.458305-05:00"
     description: A Helm chart for a hugo blog with argo ingress.
     digest: 2cfa7c0bd314b9a81bca3fb21e98fe7a7747a9e556db7772efd821be755ecd8d
     maintainers:
@@ -119,7 +133,7 @@ entries:
     version: 5.0.1
   - apiVersion: v2
     appVersion: 5.0.0
-    created: "2020-08-23T16:58:28.345023-05:00"
+    created: "2020-08-30T15:37:52.45724-05:00"
     description: A Helm chart for a hugo blog with argo ingress.
     digest: 4c4fbc68ce6c73f88b48331c025228a4e653cbcb5da35febd3055f200e1641a0
     maintainers:
@@ -132,7 +146,7 @@ entries:
     version: 5.0.0
   - apiVersion: v2
     appVersion: 4.1.0
-    created: "2020-08-23T16:58:28.344269-05:00"
+    created: "2020-08-30T15:37:52.456464-05:00"
     description: A Helm chart for a hugo blog with argo ingress.
     digest: 1d8983f07827578fe1f5a1ce69ff4a9a3db4640f58857305f0410e4542400378
     maintainers:
@@ -145,7 +159,7 @@ entries:
     version: 4.1.0
   - apiVersion: v2
     appVersion: 4.0.0
-    created: "2020-08-23T16:58:28.343454-05:00"
+    created: "2020-08-30T15:37:52.455712-05:00"
     description: A Helm chart for a hugo blog with argo ingress.
     digest: 1e6d5852fd5d5e5fcd0868054890289377eeadc90f962ff7bdaad0eb3ef0de69
     name: blog
@@ -155,7 +169,7 @@ entries:
     version: 4.0.0
   - apiVersion: v2
     appVersion: 3.0.2
-    created: "2020-08-23T16:58:28.342605-05:00"
+    created: "2020-08-30T15:37:52.454988-05:00"
     description: A Helm chart for a hugo blog with argo ingress.
     digest: c6a6e0ed3fe42d32d401844ca6676d070cb19d47fb060e57949b9168b5efa9a5
     name: blog
@@ -165,7 +179,7 @@ entries:
     version: 3.1.2
   - apiVersion: v2
     appVersion: 3.0.2
-    created: "2020-08-23T16:58:28.341845-05:00"
+    created: "2020-08-30T15:37:52.454232-05:00"
     description: A Helm chart for a hugo blog with argo ingress.
     digest: f31455a0c1e0d00f85d849061abea793eeef0ebe669c5e2260074f559b7f3c24
     name: blog
@@ -175,7 +189,7 @@ entries:
     version: 3.1.1
   - apiVersion: v2
     appVersion: 3.0.2
-    created: "2020-08-23T16:58:28.341112-05:00"
+    created: "2020-08-30T15:37:52.453532-05:00"
     description: A Helm chart for a hugo blog with argo ingress.
     digest: 6744c4013215f005c9e802a61f6faef24c0a73a344d18db99b371774f1927f55
     name: blog
@@ -185,7 +199,7 @@ entries:
     version: 3.1.0
   - apiVersion: v2
     appVersion: 3.0.2
-    created: "2020-08-23T16:58:28.340417-05:00"
+    created: "2020-08-30T15:37:52.452448-05:00"
     description: A Helm chart for a hugo blog with argo ingress.
     digest: 36b7e6da5294bccffd025e9a3a1cbcea2e8574f5cbff989f0918906913c753dd
     name: blog
@@ -195,7 +209,7 @@ entries:
     version: 3.0.3
   - apiVersion: v2
     appVersion: 3.0.2
-    created: "2020-08-23T16:58:28.339704-05:00"
+    created: "2020-08-30T15:37:52.451749-05:00"
     description: A Helm chart for a hugo blog with argo ingress.
     digest: 2349deb700c4fe75ca42cc02ca7daf0e929af637645d8852108ae6a47254e2a9
     name: blog
@@ -205,7 +219,7 @@ entries:
     version: 3.0.2
   - apiVersion: v2
     appVersion: 3.0.0
-    created: "2020-08-23T16:58:28.339003-05:00"
+    created: "2020-08-30T15:37:52.451044-05:00"
     description: A Helm chart for a hugo blog with argo ingress.
     digest: a4eaf659db72bacfeab8db9d521920826939070e3f6dd614e3d366e6a28a234e
     name: blog
@@ -215,7 +229,7 @@ entries:
     version: 3.0.0
   - apiVersion: v2
     appVersion: 1.0.4
-    created: "2020-08-23T16:58:28.33827-05:00"
+    created: "2020-08-30T15:37:52.450297-05:00"
     description: A Helm chart for a hugo blog with argo ingress.
     digest: 272b30691f4993c0c5ab59137f343442c15c779b29eea05425339fa7994ea63f
     name: blog
@@ -225,7 +239,7 @@ entries:
     version: 1.0.4
   - apiVersion: v2
     appVersion: 1.0.3
-    created: "2020-08-23T16:58:28.337173-05:00"
+    created: "2020-08-30T15:37:52.449579-05:00"
     description: A Helm chart for a hugo blog with argo ingress.
     digest: 2f877cd32d6aefce0420a9ad92f2e7e23d8f454ca2fbb0c4163c9ea535f64592
     name: blog
@@ -235,7 +249,7 @@ entries:
     version: 1.0.3
   - apiVersion: v2
     appVersion: 1.0.2
-    created: "2020-08-23T16:58:28.33655-05:00"
+    created: "2020-08-30T15:37:52.448903-05:00"
     description: A Helm chart for a hugo blog with argo ingress.
     digest: 23bf008d8e0b2b4d8046d34d4e0d0c3edc5063ebdbab7e882ec9fec68b556439
     name: blog
@@ -245,7 +259,7 @@ entries:
     version: 1.0.2
   - apiVersion: v2
     appVersion: 1.0.1
-    created: "2020-08-23T16:58:28.335818-05:00"
+    created: "2020-08-30T15:37:52.448206-05:00"
     description: A Helm chart for a hugo blog with argo ingress.
     digest: 540cde5d9078989231affbfd32530df1547f1f99e277426cfdcd301cf7e2843f
     name: blog
@@ -255,7 +269,7 @@ entries:
     version: 1.0.1
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2020-08-23T16:58:28.335162-05:00"
+    created: "2020-08-30T15:37:52.447362-05:00"
     description: A Helm chart for Kubernetes
     digest: fee2a3ba31f78bda5cbd40fd50c83aeff7af489d5e58f0dbb27cfa2b72c29a8e
     name: blog
@@ -266,7 +280,7 @@ entries:
   cluster-autoscaler:
   - apiVersion: v1
     appVersion: 1.17.1
-    created: "2020-08-23T16:58:28.356394-05:00"
+    created: "2020-08-30T15:37:52.468822-05:00"
     description: Scales worker nodes within autoscaling groups.
     digest: 4978ad38142e2aaf740a55c47906612922119c96c661581c0889b038f62d61eb
     home: https://github.com/kubernetes/autoscaler
@@ -285,7 +299,7 @@ entries:
     version: 7.2.2
   - apiVersion: v1
     appVersion: 1.17.1
-    created: "2020-08-23T16:58:28.35469-05:00"
+    created: "2020-08-30T15:37:52.466962-05:00"
     description: Scales worker nodes within autoscaling groups.
     digest: 525fcaab2d326c799c3f6eb0dd390a3df436065f97777e67a2872c152381667e
     home: https://github.com/kubernetes/autoscaler
@@ -299,7 +313,7 @@ entries:
     version: 6.6.2
   - apiVersion: v1
     appVersion: 1.14.6
-    created: "2020-08-23T16:58:28.353045-05:00"
+    created: "2020-08-30T15:37:52.465543-05:00"
     description: Scales worker nodes within autoscaling groups.
     digest: 9ac1a3cc936cb524ebd3b9c5fb3df88567f2b60ee21b2e5b9186f407321d5237
     home: https://github.com/kubernetes/autoscaler
@@ -319,7 +333,7 @@ entries:
   datadog:
   - apiVersion: v1
     appVersion: "7"
-    created: "2020-08-23T16:58:28.371495-05:00"
+    created: "2020-08-30T15:37:52.48278-05:00"
     dependencies:
     - condition: datadog.kubeStateMetricsEnabled
       name: kube-state-metrics
@@ -359,7 +373,7 @@ entries:
     version: 2.3.33
   - apiVersion: v1
     appVersion: "7"
-    created: "2020-08-23T16:58:28.366288-05:00"
+    created: "2020-08-30T15:37:52.477443-05:00"
     dependencies:
     - condition: datadog.kubeStateMetricsEnabled
       name: kube-state-metrics
@@ -399,7 +413,7 @@ entries:
     version: 2.3.32
   - apiVersion: v1
     appVersion: "7"
-    created: "2020-08-23T16:58:28.360822-05:00"
+    created: "2020-08-30T15:37:52.473228-05:00"
     dependencies:
     - condition: datadog.kubeStateMetricsEnabled
       name: kube-state-metrics
@@ -440,7 +454,7 @@ entries:
   grafana:
   - apiVersion: v1
     appVersion: 6.6.2
-    created: "2020-08-23T16:58:28.373959-05:00"
+    created: "2020-08-30T15:37:52.486168-05:00"
     description: The leading tool for querying and visualizing time series and metrics.
     digest: 1d24f2386ce90c8ee7376c4f2884a4d108584e4bf486cc494b70b9826aaca2ce
     home: https://grafana.net
@@ -462,7 +476,7 @@ entries:
   harbor:
   - apiVersion: v1
     appVersion: 1.10.1
-    created: "2020-08-23T16:58:28.379589-05:00"
+    created: "2020-08-30T15:37:52.493167-05:00"
     description: An open source trusted cloud native registry that stores, signs,
       and scans content
     digest: 6c0ccbd99dd067c95e6228e22d1a16602fb47412189d3b8b8760664f7e16996a
@@ -481,7 +495,7 @@ entries:
     version: 1.3.2
   - apiVersion: v1
     appVersion: 1.10.1
-    created: "2020-08-23T16:58:28.376805-05:00"
+    created: "2020-08-30T15:37:52.48985-05:00"
     description: An open source trusted cloud native registry that stores, signs,
       and scans content
     digest: 51cde285b0461d4ca3830b6e12849852f0528cf70b4d496692ebbf0c3e13c733
@@ -506,7 +520,7 @@ entries:
   kube-state-metrics:
   - apiVersion: v1
     appVersion: 1.9.7
-    created: "2020-08-23T16:58:28.387271-05:00"
+    created: "2020-08-30T15:37:52.502449-05:00"
     description: Install kube-state-metrics to generate and expose cluster-level metrics
     digest: 4cf6937890f21c0dde52df60c71ce71317417431d1d655bb7ee8a3caa942a6b5
     home: https://github.com/kubernetes/kube-state-metrics/
@@ -530,7 +544,7 @@ entries:
     version: 2.9.0
   - apiVersion: v1
     appVersion: 1.9.7
-    created: "2020-08-23T16:58:28.386063-05:00"
+    created: "2020-08-30T15:37:52.501207-05:00"
     description: Install kube-state-metrics to generate and expose cluster-level metrics
     digest: edff31c7fecd0e957948ac89ba5c5e6da1d0d15344e3cff277e07e1d332cea2d
     home: https://github.com/kubernetes/kube-state-metrics/
@@ -554,7 +568,7 @@ entries:
     version: 2.8.13
   - apiVersion: v1
     appVersion: 1.9.7
-    created: "2020-08-23T16:58:28.38474-05:00"
+    created: "2020-08-30T15:37:52.499849-05:00"
     description: Install kube-state-metrics to generate and expose cluster-level metrics
     digest: 1f4180f2311a0d7640dd2f838ed9f00b9f16b398b067c6cc92231b615f0995c6
     home: https://github.com/kubernetes/kube-state-metrics/
@@ -578,7 +592,7 @@ entries:
     version: 2.8.12
   - apiVersion: v1
     appVersion: 1.9.7
-    created: "2020-08-23T16:58:28.383445-05:00"
+    created: "2020-08-30T15:37:52.498594-05:00"
     description: Install kube-state-metrics to generate and expose cluster-level metrics
     digest: 314b6de2c4ab3c99aef5916402e91e394e7d8bc2e27aa3c8434bf30b431b2441
     home: https://github.com/kubernetes/kube-state-metrics/
@@ -602,7 +616,7 @@ entries:
     version: 2.8.11
   - apiVersion: v1
     appVersion: 1.9.5
-    created: "2020-08-23T16:58:28.381899-05:00"
+    created: "2020-08-30T15:37:52.495514-05:00"
     description: Install kube-state-metrics to generate and expose cluster-level metrics
     digest: 3d6b2a25c8d7b88258343aeb3a618aa029d72591758fc052946ed60684b9e058
     home: https://github.com/kubernetes/kube-state-metrics/
@@ -626,7 +640,7 @@ entries:
     version: 2.8.0
   - apiVersion: v1
     appVersion: 1.9.5
-    created: "2020-08-23T16:58:28.3807-05:00"
+    created: "2020-08-30T15:37:52.494351-05:00"
     description: Install kube-state-metrics to generate and expose cluster-level metrics
     digest: 008c691f8299a7883f264061ea3b62ec917a3414aa8a5a38304fb4b61cb31eca
     home: https://github.com/kubernetes/kube-state-metrics/
@@ -651,7 +665,7 @@ entries:
   newrelic-infrastructure:
   - apiVersion: v1
     appVersion: 1.13.2
-    created: "2020-08-23T16:58:28.388322-05:00"
+    created: "2020-08-30T15:37:52.503516-05:00"
     description: A Helm chart to deploy the New Relic Infrastructure Agent as a DaemonSet
     digest: 7cbf2a3849e158aca6cde698521e3fb8354cf3b4ec0322a76e5c86905ca01547
     home: https://hub.docker.com/r/newrelic/infrastructure-k8s/
@@ -676,7 +690,7 @@ entries:
   prometheus:
   - apiVersion: v1
     appVersion: 2.19.0
-    created: "2020-08-23T16:58:28.409477-05:00"
+    created: "2020-08-30T15:37:52.525748-05:00"
     dependencies:
     - condition: kubeStateMetrics.enabled
       name: kube-state-metrics
@@ -705,7 +719,7 @@ entries:
     version: 11.10.2
   - apiVersion: v1
     appVersion: 2.19.0
-    created: "2020-08-23T16:58:28.403925-05:00"
+    created: "2020-08-30T15:37:52.520272-05:00"
     dependencies:
     - condition: kubeStateMetrics.enabled
       name: kube-state-metrics
@@ -734,7 +748,7 @@ entries:
     version: 11.10.1
   - apiVersion: v1
     appVersion: 2.19.0
-    created: "2020-08-23T16:58:28.39802-05:00"
+    created: "2020-08-30T15:37:52.514079-05:00"
     dependencies:
     - condition: kubeStateMetrics.enabled
       name: kube-state-metrics
@@ -763,7 +777,7 @@ entries:
     version: 11.10.0
   - apiVersion: v1
     appVersion: 2.16.0
-    created: "2020-08-23T16:58:28.393237-05:00"
+    created: "2020-08-30T15:37:52.508318-05:00"
     dependencies:
     - condition: kubeStateMetrics.enabled
       name: kube-state-metrics
@@ -791,7 +805,7 @@ entries:
   sealed-secrets:
   - apiVersion: v1
     appVersion: 0.9.7
-    created: "2020-08-23T16:58:28.410821-05:00"
+    created: "2020-08-30T15:37:52.526742-05:00"
     description: A Helm chart for Sealed Secrets
     digest: a0ef365d59483ea6b69d56e7d2160f38455a13659bdba0adf4791507caf3afbf
     home: https://github.com/bitnami-labs/sealed-secrets
@@ -808,7 +822,7 @@ entries:
   spot-termination-handler:
   - apiVersion: v1
     appVersion: 1.13.7-1
-    created: "2020-08-23T16:58:28.411915-05:00"
+    created: "2020-08-30T15:37:52.527649-05:00"
     description: The K8s Spot Termination handler handles draining AWS Spot Instances
       in response to termination requests.
     digest: b24c15cbfbb4aca9e0020d988b7e5ca90707c2ecffd01bbb2ccf912421c036cc
@@ -832,7 +846,7 @@ entries:
   ssl:
   - apiVersion: v2
     appVersion: 2.0.0
-    created: "2020-08-23T16:58:28.415226-05:00"
+    created: "2020-08-30T15:37:52.53139-05:00"
     description: A Helm chart for a hugo blog with argo ingress.
     digest: a2024e258fb24ead5351735c3d4d2e77a6afc4713820cd8c770dbc99e30cb132
     name: ssl
@@ -842,7 +856,7 @@ entries:
     version: 2.0.0
   - apiVersion: v2
     appVersion: 1.1.0
-    created: "2020-08-23T16:58:28.414577-05:00"
+    created: "2020-08-30T15:37:52.530567-05:00"
     description: A Helm chart for a hugo blog with argo ingress.
     digest: 635e45c7b460508d2961591f79ab9f30709223f8523c0d523c9305214e6d34b5
     name: ssl
@@ -852,7 +866,7 @@ entries:
     version: 1.1.0
   - apiVersion: v2
     appVersion: 1.0.2
-    created: "2020-08-23T16:58:28.413922-05:00"
+    created: "2020-08-30T15:37:52.52981-05:00"
     description: A Helm chart for a hugo blog with argo ingress.
     digest: 8391306ca1e6abb12ae255c45822fab12286d87ec24bcc6b1e09a736cc96ecb6
     name: ssl
@@ -862,7 +876,7 @@ entries:
     version: 1.0.2
   - apiVersion: v2
     appVersion: 1.0.1
-    created: "2020-08-23T16:58:28.413259-05:00"
+    created: "2020-08-30T15:37:52.529054-05:00"
     description: A Helm chart for a hugo blog with argo ingress.
     digest: f436f2441c0bf9ac23db9b16bf16e539f6518ea3a7fa47c15a25ba2b217baa9d
     name: ssl
@@ -872,7 +886,7 @@ entries:
     version: 1.0.1
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2020-08-23T16:58:28.412584-05:00"
+    created: "2020-08-30T15:37:52.528332-05:00"
     description: A Helm chart for a hugo blog with argo ingress.
     digest: b4e294f61aac9504ba2436157328c3568daf3e6547838a450615bafb98109c58
     name: ssl
@@ -883,7 +897,7 @@ entries:
   velero:
   - apiVersion: v1
     appVersion: 1.2.0
-    created: "2020-08-23T16:58:28.423458-05:00"
+    created: "2020-08-30T15:37:52.53953-05:00"
     deprecated: true
     description: A Helm chart for velero
     digest: 77dc15ae5f46b6e078a1808938072128ed225c18ddd76d8235e9fa1324055bc7
@@ -897,7 +911,7 @@ entries:
     version: 2.8.0
   - apiVersion: v1
     appVersion: 1.2.0
-    created: "2020-08-23T16:58:28.421205-05:00"
+    created: "2020-08-30T15:37:52.538004-05:00"
     deprecated: true
     description: A Helm chart for velero
     digest: a02b1f410b563cff303428ba4be47110dfc18612173792c89cb89bec02d504a8
@@ -911,7 +925,7 @@ entries:
     version: 2.7.7
   - apiVersion: v1
     appVersion: 1.2.0
-    created: "2020-08-23T16:58:28.419805-05:00"
+    created: "2020-08-30T15:37:52.536218-05:00"
     deprecated: true
     description: A Helm chart for velero
     digest: 47e93170e3d82c3d4f65bce681fae857822eff476058bc02b429f7d37c9576af
@@ -925,7 +939,7 @@ entries:
     version: 2.7.6
   - apiVersion: v1
     appVersion: 1.2.0
-    created: "2020-08-23T16:58:28.418723-05:00"
+    created: "2020-08-30T15:37:52.534937-05:00"
     deprecated: true
     description: A Helm chart for velero
     digest: de774f175cc0b0571914684219f9a35e1b3e98aeffcd40d6c426dd27a60fba59
@@ -939,7 +953,7 @@ entries:
     version: 2.7.5
   - apiVersion: v1
     appVersion: 1.2.0
-    created: "2020-08-23T16:58:28.417507-05:00"
+    created: "2020-08-30T15:37:52.533425-05:00"
     deprecated: true
     description: A Helm chart for velero
     digest: e7c4a1437463d37d53b048333e38ea1bb05217d676b38d49eca98365841e3616
@@ -951,4 +965,4 @@ entries:
     urls:
     - https://charts.glen.dev/velero-2.7.4.tgz
     version: 2.7.4
-generated: "2020-08-23T16:58:28.329196-05:00"
+generated: "2020-08-30T15:37:52.442193-05:00"

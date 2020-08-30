@@ -13,6 +13,13 @@ sidecar:
     pullPolicy: Always
   deploy:
     container_port: 80
+  resources:
+    limits:
+      cpu: 10
+      memory: 20Mi
+    requests:
+      cpu: 10
+      memory: 20Mi
 
 imagePullSecrets: []
 nameOverride: ""
@@ -30,6 +37,7 @@ service:
   port: 80
   targetport: 8080
   status_port: 22001
+
 deploy:
   status_port: 22001
   container_port: 8080
@@ -49,17 +57,12 @@ resources:
     cpu: 100m
     memory: 128Mi
 
-sidecar:
-  resources:
-    limits:
-      cpu: 10
-      memory: 20Mi
-    requests:
-      cpu: 10
-      memory: 20Mi
-
 nodeSelector: {}
 
 tolerations: []
 
 affinity: {}
+
+autoscaling:
+  minReplicas: ""
+  maxReplicas: ""

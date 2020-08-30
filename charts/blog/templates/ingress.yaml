@@ -1,22 +1,14 @@
 {{- if .Values.ingress.enabled -}}
-apiVersion: networking.k8s.io/v1beta1
-kind: Ingress
-metadata:
+ingress:
+  enabled: true
   annotations:
-    kubernetes.io/ingress.class: argo-tunnel
-  labels:
-    ingress: argo-tunnel
-  name: blog
-spec:
+    kubernetes.io/ingress.class: nginx
+    cert-manager.io/issuer: "letsencrypt-staging"
+  hosts:
+    - host: {{ .Values.ingress.fqdn }}
+      paths: ["/"]
   tls:
-  - hosts:
-    - {{ .Values.ingress.fqdn }}
-    secretName: {{ .Values.ingress.secret }}
-  rules:
-  - host: {{ .Values.ingress.fqdn }}
-    http:
-      paths:
-      - backend:
-          serviceName: {{ .Values.ingress.serviceName }}
-          servicePort: {{ .Values.ingress.servicePort }}
+   - secretName: {{ .Values.ingress.secret }}
+     hosts:
+       - {{ .Values.ingress.fqdn }}
 {{- end}}

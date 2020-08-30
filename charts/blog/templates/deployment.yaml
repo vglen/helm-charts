@@ -51,10 +51,10 @@ spec:
               port: http
           resources:
             {{- toYaml .Values.resources | nindent 12 }}
-        {{- if .Values.ingress.enabled -}}
+        {{- if .Values.sidecar.enabled -}}
         - name: tunnel
-          image: "{{ .Values.sidecar.image.repository }}:{{ .Values.sidecar.image.tag }}"
-          imagePullPolicy: {{ .Values.sidecar.image.pullPolicy }}
+          image: vglen/cloudflared:2020.08.2-arm64
+          imagePullPolicy: Always
           command: ["cloudflared", "tunnel"]
           args: ["url=http://127.0.0.1:80", "hostname=blog.glen.dev", "origincert=/etc/cloudflared/cert.pem", "no-autoupdate"]
           env:
