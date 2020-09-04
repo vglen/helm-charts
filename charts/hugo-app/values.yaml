@@ -34,7 +34,7 @@ ingress:
     kubernetes.io/ingress.class: nginx
     # kubernetes.io/tls-acme: "true"
   hosts:
-    - host: 
+    - host: blog.glen.dev
       paths: ["/"]
   tls: []
   #  - secretName: chart-example-tls
