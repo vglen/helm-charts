@@ -5,7 +5,7 @@ apiVersion: networking.k8s.io/v1beta1
 {{- end }}
 kind: Ingress
 metadata:
-  name: {{ $fullName }}
+  name: {{ template "fullname" . }}
   labels:
     {{- include "hugo-app.labels" . | nindent 4 }}
   {{- with .Values.ingress.annotations }}
