@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   argo-tunnel:
   - apiVersion: v1
-    created: "2020-10-13T19:45:39.178673-05:00"
+    created: "2020-11-15T15:13:13.51269-06:00"
     description: Installs the cloudflare argo tunnel ingress controller
     digest: 6b4f72dd16efb1291f78d88132cc07c01a952491857357dd98ccb0763312a624
     home: https://developers.cloudflare.com/argo-tunnel/
@@ -11,10 +11,10 @@ entries:
       name: Matthew Alberts
     name: argo-tunnel
     urls:
-    - https://charts.glen.dev/argo-tunnel-0.6.7.tgz
+    - htps://charts.glen.dev/argo-tunnel-0.6.7.tgz
     version: 0.6.7
   - apiVersion: v1
-    created: "2020-10-13T19:45:39.177326-05:00"
+    created: "2020-11-15T15:13:13.512235-06:00"
     description: Installs the cloudflare argo tunnel ingress controller
     digest: 71830f6381cb63f1fd589ed082e35b3a7fd2ef6f0c6dac678f40b3a4c661ce3e
     home: https://developers.cloudflare.com/argo-tunnel/
@@ -23,12 +23,29 @@ entries:
       name: Matthew Alberts
     name: argo-tunnel
     urls:
-    - https://charts.glen.dev/argo-tunnel-0.6.6.tgz
+    - htps://charts.glen.dev/argo-tunnel-0.6.6.tgz
     version: 0.6.6
+  aws-alb-ingress-controller:
+  - apiVersion: v1
+    appVersion: v1.1.8
+    created: "2020-11-15T15:13:13.513327-06:00"
+    deprecated: true
+    description: DEPRECATED A Helm chart for AWS ALB Ingress Controller
+    digest: b3c9b14701111e378682271e490d38339060c3ac0dab1eb59fee37cbb0ac5b6c
+    home: https://github.com/kubernetes-sigs/aws-alb-ingress-controller
+    keywords:
+    - aws
+    - ingress
+    name: aws-alb-ingress-controller
+    sources:
+    - https://github.com/kubernetes-sigs/aws-alb-ingress-controller
+    urls:
+    - htps://charts.glen.dev/aws-alb-ingress-controller-1.0.4.tgz
+    version: 1.0.4
   blog:
   - apiVersion: v2
     appVersion: 6.1.0
-    created: "2020-10-13T19:45:39.209042-05:00"
+    created: "2020-11-15T15:13:13.528922-06:00"
     description: A Helm chart for a hugo blog with argo ingress.
     digest: f19aead3d1115ecf647c7779a4a99c35ad99228246212a037dc234119ff07607
     icon: https://blog.glen.dev/images/me.png
@@ -38,11 +55,11 @@ entries:
     name: blog
     type: application
     urls:
-    - https://charts.glen.dev/blog-6.1.0.tgz
+    - htps://charts.glen.dev/blog-6.1.0.tgz
     version: 6.1.0
   - apiVersion: v2
     appVersion: 6.0.5
-    created: "2020-10-13T19:45:39.207786-05:00"
+    created: "2020-11-15T15:13:13.528455-06:00"
     description: A Helm chart for a hugo blog with argo ingress.
     digest: 67285b63623df12ffaf9462e8f9a0f90d281824dfd6dc5c7ae19d0f6a3ad29de
     icon: https://blog.glen.dev/images/me.png
@@ -52,11 +69,11 @@ entries:
     name: blog
     type: application
     urls:
-    - https://charts.glen.dev/blog-6.0.5.tgz
+    - htps://charts.glen.dev/blog-6.0.5.tgz
     version: 6.0.5
   - apiVersion: v2
     appVersion: 6.0.4
-    created: "2020-10-13T19:45:39.206555-05:00"
+    created: "2020-11-15T15:13:13.528009-06:00"
     description: A Helm chart for a hugo blog with argo ingress.
     digest: 6da7be0ffe1eaec908f3beaa935f8414b32f1a6c90e12711e8519e2f1aa2d6c1
     icon: https://blog.glen.dev/images/me.png
@@ -66,11 +83,11 @@ entries:
     name: blog
     type: application
     urls:
-    - https://charts.glen.dev/blog-6.0.4.tgz
+    - htps://charts.glen.dev/blog-6.0.4.tgz
     version: 6.0.4
   - apiVersion: v2
     appVersion: 6.0.3
-    created: "2020-10-13T19:45:39.205312-05:00"
+    created: "2020-11-15T15:13:13.527186-06:00"
     description: A Helm chart for a hugo blog with argo ingress.
     digest: 8203ea3207717b224917deb8ef4a35185d709ee9c901db7976f8e7beeec50c50
     maintainers:
@@ -79,11 +96,11 @@ entries:
     name: blog
     type: application
     urls:
-    - https://charts.glen.dev/blog-6.0.3.tgz
+    - htps://charts.glen.dev/blog-6.0.3.tgz
     version: 6.0.3
   - apiVersion: v2
     appVersion: 6.0.2
-    created: "2020-10-13T19:45:39.203362-05:00"
+    created: "2020-11-15T15:13:13.526759-06:00"
     description: A Helm chart for a hugo blog with argo ingress.
     digest: 256d05ae9f002101906786a11e8c21d9d7762fdccf06992fa7e75c9fb3bca98b
     maintainers:
@@ -92,11 +109,11 @@ entries:
     name: blog
     type: application
     urls:
-    - https://charts.glen.dev/blog-6.0.2.tgz
+    - htps://charts.glen.dev/blog-6.0.2.tgz
     version: 6.0.2
   - apiVersion: v2
     appVersion: 6.0.1
-    created: "2020-10-13T19:45:39.202232-05:00"
+    created: "2020-11-15T15:13:13.526321-06:00"
     description: A Helm chart for a hugo blog with argo ingress.
     digest: 06d297de9a6475a6189e5e1f5a3b56469a143680c052b7d209aaa72480e0b617
     maintainers:
@@ -105,11 +122,11 @@ entries:
     name: blog
     type: application
     urls:
-    - https://charts.glen.dev/blog-6.0.1.tgz
+    - htps://charts.glen.dev/blog-6.0.1.tgz
     version: 6.0.1
   - apiVersion: v2
     appVersion: 6.0.0
-    created: "2020-10-13T19:45:39.200964-05:00"
+    created: "2020-11-15T15:13:13.525561-06:00"
     description: A Helm chart for a hugo blog with argo ingress.
     digest: 371efe6d41bf8f2ce5b7c4af1b5e594bec515595918154712b1a23ca4022824e
     maintainers:
@@ -118,11 +135,11 @@ entries:
     name: blog
     type: application
     urls:
-    - https://charts.glen.dev/blog-6.0.0.tgz
+    - htps://charts.glen.dev/blog-6.0.0.tgz
     version: 6.0.0
   - apiVersion: v2
     appVersion: 5.1.0
-    created: "2020-10-13T19:45:39.198742-05:00"
+    created: "2020-11-15T15:13:13.525132-06:00"
     description: A Helm chart for a hugo blog with argo ingress.
     digest: d8d5ec1096673f36a573808d7be88befcbf1bd3496c072f770d62ff084a2400f
     maintainers:
@@ -131,11 +148,11 @@ entries:
     name: blog
     type: application
     urls:
-    - https://charts.glen.dev/blog-5.1.0.tgz
+    - htps://charts.glen.dev/blog-5.1.0.tgz
     version: 5.1.0
   - apiVersion: v2
     appVersion: 5.0.2
-    created: "2020-10-13T19:45:39.197754-05:00"
+    created: "2020-11-15T15:13:13.524373-06:00"
     description: A Helm chart for a hugo blog with argo ingress.
     digest: fb3ef8b46ac627db0415f81199691e0a669739728e1f2319958363ffc37cba46
     maintainers:
@@ -144,11 +161,11 @@ entries:
     name: blog
     type: application
     urls:
-    - https://charts.glen.dev/blog-5.0.2.tgz
+    - htps://charts.glen.dev/blog-5.0.2.tgz
     version: 5.0.2
   - apiVersion: v2
     appVersion: 5.0.1
-    created: "2020-10-13T19:45:39.196624-05:00"
+    created: "2020-11-15T15:13:13.523983-06:00"
     description: A Helm chart for a hugo blog with argo ingress.
     digest: 2cfa7c0bd314b9a81bca3fb21e98fe7a7747a9e556db7772efd821be755ecd8d
     maintainers:
@@ -157,11 +174,11 @@ entries:
     name: blog
     type: application
     urls:
-    - https://charts.glen.dev/blog-5.0.1.tgz
+    - htps://charts.glen.dev/blog-5.0.1.tgz
     version: 5.0.1
   - apiVersion: v2
     appVersion: 5.0.0
-    created: "2020-10-13T19:45:39.195443-05:00"
+    created: "2020-11-15T15:13:13.523585-06:00"
     description: A Helm chart for a hugo blog with argo ingress.
     digest: 4c4fbc68ce6c73f88b48331c025228a4e653cbcb5da35febd3055f200e1641a0
     maintainers:
@@ -170,11 +187,11 @@ entries:
     name: blog
     type: application
     urls:
-    - https://charts.glen.dev/blog-5.0.0.tgz
+    - htps://charts.glen.dev/blog-5.0.0.tgz
     version: 5.0.0
   - apiVersion: v2
     appVersion: 4.1.0
-    created: "2020-10-13T19:45:39.194272-05:00"
+    created: "2020-11-15T15:13:13.52313-06:00"
     description: A Helm chart for a hugo blog with argo ingress.
     digest: 1d8983f07827578fe1f5a1ce69ff4a9a3db4640f58857305f0410e4542400378
     maintainers:
@@ -183,132 +200,132 @@ entries:
     name: blog
     type: application
     urls:
-    - https://charts.glen.dev/blog-4.1.0.tgz
+    - htps://charts.glen.dev/blog-4.1.0.tgz
     version: 4.1.0
   - apiVersion: v2
     appVersion: 4.0.0
-    created: "2020-10-13T19:45:39.191455-05:00"
+    created: "2020-11-15T15:13:13.522693-06:00"
     description: A Helm chart for a hugo blog with argo ingress.
     digest: 1e6d5852fd5d5e5fcd0868054890289377eeadc90f962ff7bdaad0eb3ef0de69
     name: blog
     type: application
     urls:
-    - https://charts.glen.dev/blog-4.0.0.tgz
+    - htps://charts.glen.dev/blog-4.0.0.tgz
     version: 4.0.0
   - apiVersion: v2
     appVersion: 3.0.2
-    created: "2020-10-13T19:45:39.190401-05:00"
+    created: "2020-11-15T15:13:13.522233-06:00"
     description: A Helm chart for a hugo blog with argo ingress.
     digest: c6a6e0ed3fe42d32d401844ca6676d070cb19d47fb060e57949b9168b5efa9a5
     name: blog
     type: application
     urls:
-    - https://charts.glen.dev/blog-3.1.2.tgz
+    - htps://charts.glen.dev/blog-3.1.2.tgz
     version: 3.1.2
   - apiVersion: v2
     appVersion: 3.0.2
-    created: "2020-10-13T19:45:39.189558-05:00"
+    created: "2020-11-15T15:13:13.517816-06:00"
     description: A Helm chart for a hugo blog with argo ingress.
     digest: f31455a0c1e0d00f85d849061abea793eeef0ebe669c5e2260074f559b7f3c24
     name: blog
     type: application
     urls:
-    - https://charts.glen.dev/blog-3.1.1.tgz
+    - htps://charts.glen.dev/blog-3.1.1.tgz
     version: 3.1.1
   - apiVersion: v2
     appVersion: 3.0.2
-    created: "2020-10-13T19:45:39.188734-05:00"
+    created: "2020-11-15T15:13:13.517328-06:00"
     description: A Helm chart for a hugo blog with argo ingress.
     digest: 6744c4013215f005c9e802a61f6faef24c0a73a344d18db99b371774f1927f55
     name: blog
     type: application
     urls:
-    - https://charts.glen.dev/blog-3.1.0.tgz
+    - htps://charts.glen.dev/blog-3.1.0.tgz
     version: 3.1.0
   - apiVersion: v2
     appVersion: 3.0.2
-    created: "2020-10-13T19:45:39.187863-05:00"
+    created: "2020-11-15T15:13:13.516854-06:00"
     description: A Helm chart for a hugo blog with argo ingress.
     digest: 36b7e6da5294bccffd025e9a3a1cbcea2e8574f5cbff989f0918906913c753dd
     name: blog
     type: application
     urls:
-    - https://charts.glen.dev/blog-3.0.3.tgz
+    - htps://charts.glen.dev/blog-3.0.3.tgz
     version: 3.0.3
   - apiVersion: v2
     appVersion: 3.0.2
-    created: "2020-10-13T19:45:39.186963-05:00"
+    created: "2020-11-15T15:13:13.516391-06:00"
     description: A Helm chart for a hugo blog with argo ingress.
     digest: 2349deb700c4fe75ca42cc02ca7daf0e929af637645d8852108ae6a47254e2a9
     name: blog
     type: application
     urls:
-    - https://charts.glen.dev/blog-3.0.2.tgz
+    - htps://charts.glen.dev/blog-3.0.2.tgz
     version: 3.0.2
   - apiVersion: v2
     appVersion: 3.0.0
-    created: "2020-10-13T19:45:39.186068-05:00"
+    created: "2020-11-15T15:13:13.515909-06:00"
     description: A Helm chart for a hugo blog with argo ingress.
     digest: a4eaf659db72bacfeab8db9d521920826939070e3f6dd614e3d366e6a28a234e
     name: blog
     type: application
     urls:
-    - https://charts.glen.dev/blog-3.0.0.tgz
+    - htps://charts.glen.dev/blog-3.0.0.tgz
     version: 3.0.0
   - apiVersion: v2
     appVersion: 1.0.4
-    created: "2020-10-13T19:45:39.18516-05:00"
+    created: "2020-11-15T15:13:13.515437-06:00"
     description: A Helm chart for a hugo blog with argo ingress.
     digest: 272b30691f4993c0c5ab59137f343442c15c779b29eea05425339fa7994ea63f
     name: blog
     type: application
     urls:
-    - https://charts.glen.dev/blog-1.0.4.tgz
+    - htps://charts.glen.dev/blog-1.0.4.tgz
     version: 1.0.4
   - apiVersion: v2
     appVersion: 1.0.3
-    created: "2020-10-13T19:45:39.184294-05:00"
+    created: "2020-11-15T15:13:13.514982-06:00"
     description: A Helm chart for a hugo blog with argo ingress.
     digest: 2f877cd32d6aefce0420a9ad92f2e7e23d8f454ca2fbb0c4163c9ea535f64592
     name: blog
     type: application
     urls:
-    - https://charts.glen.dev/blog-1.0.3.tgz
+    - htps://charts.glen.dev/blog-1.0.3.tgz
     version: 1.0.3
   - apiVersion: v2
     appVersion: 1.0.2
-    created: "2020-10-13T19:45:39.181406-05:00"
+    created: "2020-11-15T15:13:13.514557-06:00"
     description: A Helm chart for a hugo blog with argo ingress.
     digest: 23bf008d8e0b2b4d8046d34d4e0d0c3edc5063ebdbab7e882ec9fec68b556439
     name: blog
     type: application
     urls:
-    - https://charts.glen.dev/blog-1.0.2.tgz
+    - htps://charts.glen.dev/blog-1.0.2.tgz
     version: 1.0.2
   - apiVersion: v2
     appVersion: 1.0.1
-    created: "2020-10-13T19:45:39.180621-05:00"
+    created: "2020-11-15T15:13:13.514142-06:00"
     description: A Helm chart for a hugo blog with argo ingress.
     digest: 540cde5d9078989231affbfd32530df1547f1f99e277426cfdcd301cf7e2843f
     name: blog
     type: application
     urls:
-    - https://charts.glen.dev/blog-1.0.1.tgz
+    - htps://charts.glen.dev/blog-1.0.1.tgz
     version: 1.0.1
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2020-10-13T19:45:39.1795-05:00"
+    created: "2020-11-15T15:13:13.513756-06:00"
     description: A Helm chart for Kubernetes
     digest: fee2a3ba31f78bda5cbd40fd50c83aeff7af489d5e58f0dbb27cfa2b72c29a8e
     name: blog
     type: application
     urls:
-    - https://charts.glen.dev/blog-1.0.0.tgz
+    - htps://charts.glen.dev/blog-1.0.0.tgz
     version: 1.0.0
   cluster-autoscaler:
   - apiVersion: v1
     appVersion: 1.17.1
-    created: "2020-10-13T19:45:39.216291-05:00"
+    created: "2020-11-15T15:13:13.532547-06:00"
     description: Scales worker nodes within autoscaling groups.
     digest: 4978ad38142e2aaf740a55c47906612922119c96c661581c0889b038f62d61eb
     home: https://github.com/kubernetes/autoscaler
@@ -323,11 +340,11 @@ entries:
     - https://github.com/kubernetes/autoscaler/tree/master/cluster-autoscaler
     - https://github.com/spotinst/kubernetes-autoscaler/tree/master/cluster-autoscaler
     urls:
-    - https://charts.glen.dev/cluster-autoscaler-7.2.2.tgz
+    - htps://charts.glen.dev/cluster-autoscaler-7.2.2.tgz
     version: 7.2.2
   - apiVersion: v1
     appVersion: 1.17.1
-    created: "2020-10-13T19:45:39.214573-05:00"
+    created: "2020-11-15T15:13:13.531054-06:00"
     description: Scales worker nodes within autoscaling groups.
     digest: 525fcaab2d326c799c3f6eb0dd390a3df436065f97777e67a2872c152381667e
     home: https://github.com/kubernetes/autoscaler
@@ -337,11 +354,11 @@ entries:
     - https://github.com/kubernetes/autoscaler/tree/master/cluster-autoscaler
     - https://github.com/spotinst/kubernetes-autoscaler/tree/master/cluster-autoscaler
     urls:
-    - https://charts.glen.dev/cluster-autoscaler-6.6.2.tgz
+    - htps://charts.glen.dev/cluster-autoscaler-6.6.2.tgz
     version: 6.6.2
   - apiVersion: v1
     appVersion: 1.14.6
-    created: "2020-10-13T19:45:39.210832-05:00"
+    created: "2020-11-15T15:13:13.530209-06:00"
     description: Scales worker nodes within autoscaling groups.
     digest: 9ac1a3cc936cb524ebd3b9c5fb3df88567f2b60ee21b2e5b9186f407321d5237
     home: https://github.com/kubernetes/autoscaler
@@ -356,12 +373,12 @@ entries:
     - https://github.com/kubernetes/autoscaler/tree/master/cluster-autoscaler
     - https://github.com/spotinst/kubernetes-autoscaler/tree/master/cluster-autoscaler
     urls:
-    - https://charts.glen.dev/cluster-autoscaler-6.6.1.tgz
+    - htps://charts.glen.dev/cluster-autoscaler-6.6.1.tgz
     version: 6.6.1
   datadog:
   - apiVersion: v1
     appVersion: "7"
-    created: "2020-10-13T19:45:39.228965-05:00"
+    created: "2020-11-15T15:13:13.542769-06:00"
     dependencies:
     - condition: datadog.kubeStateMetricsEnabled
       name: kube-state-metrics
@@ -397,11 +414,11 @@ entries:
     - https://app.datadoghq.com/account/settings#agent/kubernetes
     - https://github.com/DataDog/datadog-agent
     urls:
-    - https://charts.glen.dev/datadog-2.3.33.tgz
+    - htps://charts.glen.dev/datadog-2.3.33.tgz
     version: 2.3.33
   - apiVersion: v1
     appVersion: "7"
-    created: "2020-10-13T19:45:39.223772-05:00"
+    created: "2020-11-15T15:13:13.538489-06:00"
     dependencies:
     - condition: datadog.kubeStateMetricsEnabled
       name: kube-state-metrics
@@ -437,11 +454,11 @@ entries:
     - https://app.datadoghq.com/account/settings#agent/kubernetes
     - https://github.com/DataDog/datadog-agent
     urls:
-    - https://charts.glen.dev/datadog-2.3.32.tgz
+    - htps://charts.glen.dev/datadog-2.3.32.tgz
     version: 2.3.32
   - apiVersion: v1
     appVersion: "7"
-    created: "2020-10-13T19:45:39.21981-05:00"
+    created: "2020-11-15T15:13:13.53535-06:00"
     dependencies:
     - condition: datadog.kubeStateMetricsEnabled
       name: kube-state-metrics
@@ -477,12 +494,12 @@ entries:
     - https://app.datadoghq.com/account/settings#agent/kubernetes
     - https://github.com/DataDog/datadog-agent
     urls:
-    - https://charts.glen.dev/datadog-2.0.1.tgz
+    - htps://charts.glen.dev/datadog-2.0.1.tgz
     version: 2.0.1
   grafana:
   - apiVersion: v1
     appVersion: 6.6.2
-    created: "2020-10-13T19:45:39.232105-05:00"
+    created: "2020-11-15T15:13:13.54416-06:00"
     description: The leading tool for querying and visualizing time series and metrics.
     digest: 1d24f2386ce90c8ee7376c4f2884a4d108584e4bf486cc494b70b9826aaca2ce
     home: https://grafana.net
@@ -499,12 +516,12 @@ entries:
     sources:
     - https://github.com/grafana/grafana
     urls:
-    - https://charts.glen.dev/grafana-5.0.5.tgz
+    - htps://charts.glen.dev/grafana-5.0.5.tgz
     version: 5.0.5
   harbor:
   - apiVersion: v1
     appVersion: 1.10.1
-    created: "2020-10-13T19:45:39.239297-05:00"
+    created: "2020-11-15T15:13:13.549229-06:00"
     description: An open source trusted cloud native registry that stores, signs,
       and scans content
     digest: 6c0ccbd99dd067c95e6228e22d1a16602fb47412189d3b8b8760664f7e16996a
@@ -519,11 +536,11 @@ entries:
     - https://github.com/goharbor/harbor
     - https://github.com/goharbor/harbor-helm
     urls:
-    - https://charts.glen.dev/harbor-1.3.2.tgz
+    - htps://charts.glen.dev/harbor-1.3.2.tgz
     version: 1.3.2
   - apiVersion: v1
     appVersion: 1.10.1
-    created: "2020-10-13T19:45:39.235653-05:00"
+    created: "2020-11-15T15:13:13.546968-06:00"
     description: An open source trusted cloud native registry that stores, signs,
       and scans content
     digest: 51cde285b0461d4ca3830b6e12849852f0528cf70b4d496692ebbf0c3e13c733
@@ -543,12 +560,12 @@ entries:
     - https://github.com/goharbor/harbor
     - https://github.com/goharbor/harbor-helm
     urls:
-    - https://charts.glen.dev/harbor-1.3.1.tgz
+    - htps://charts.glen.dev/harbor-1.3.1.tgz
     version: 1.3.1
   hugo-app:
   - apiVersion: v2
     appVersion: 0.0.5
-    created: "2020-10-13T19:45:39.24666-05:00"
+    created: "2020-11-15T15:13:13.55202-06:00"
     description: A Helm chart for a hugo blog with argo ingress.
     digest: ed1ed18626626cc16ef98c12ab6f008ce688f9f2aeeb49e6d31287c2bc097f94
     icon: https://blog.glen.dev/images/me.png
@@ -558,11 +575,11 @@ entries:
     name: hugo-app
     type: application
     urls:
-    - https://charts.glen.dev/hugo-app-0.0.5.tgz
+    - htps://charts.glen.dev/hugo-app-0.0.5.tgz
     version: 0.0.5
   - apiVersion: v2
     appVersion: 0.0.4
-    created: "2020-10-13T19:45:39.24538-05:00"
+    created: "2020-11-15T15:13:13.551602-06:00"
     description: A Helm chart for a hugo blog with argo ingress.
     digest: 55e25eb355b201e0624d6af60512aaa753c3e1385ead6571fae7e50e5bc5ab74
     icon: https://blog.glen.dev/images/me.png
@@ -572,11 +589,11 @@ entries:
     name: hugo-app
     type: application
     urls:
-    - https://charts.glen.dev/hugo-app-0.0.4.tgz
+    - htps://charts.glen.dev/hugo-app-0.0.4.tgz
     version: 0.0.4
   - apiVersion: v2
     appVersion: 0.0.3
-    created: "2020-10-13T19:45:39.243554-05:00"
+    created: "2020-11-15T15:13:13.551179-06:00"
     description: A Helm chart for a hugo blog with argo ingress.
     digest: 1fc02373aca61fa55b805646e5d9304849fc23389287a320abb4e6da1bf00483
     icon: https://blog.glen.dev/images/me.png
@@ -586,11 +603,11 @@ entries:
     name: hugo-app
     type: application
     urls:
-    - https://charts.glen.dev/hugo-app-0.0.3.tgz
+    - htps://charts.glen.dev/hugo-app-0.0.3.tgz
     version: 0.0.3
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2020-10-13T19:45:39.242328-05:00"
+    created: "2020-11-15T15:13:13.550119-06:00"
     description: A Helm chart for a hugo blog with argo ingress.
     digest: e6b794db75ca13b8e9bf8e5f9ef458b6ea2f581e2cf3423125363c9e35fdc342
     icon: https://blog.glen.dev/images/me.png
@@ -600,11 +617,11 @@ entries:
     name: hugo-app
     type: application
     urls:
-    - https://charts.glen.dev/hugo-app-0.0.2.tgz
+    - htps://charts.glen.dev/hugo-app-0.0.2.tgz
     version: 0.0.2
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2020-10-13T19:45:39.241042-05:00"
+    created: "2020-11-15T15:13:13.549656-06:00"
     description: A Helm chart for a hugo blog with argo ingress.
     digest: 17839899ea492d67701bf4984ebc74c3c21d858e32d5db93cb9ab2fda57fffad
     icon: https://blog.glen.dev/images/me.png
@@ -614,12 +631,12 @@ entries:
     name: hugo-app
     type: application
     urls:
-    - https://charts.glen.dev/hugo-app-0.0.1.tgz
+    - htps://charts.glen.dev/hugo-app-0.0.1.tgz
     version: 0.0.1
   kube-state-metrics:
   - apiVersion: v1
     appVersion: 1.9.7
-    created: "2020-10-13T19:45:39.255606-05:00"
+    created: "2020-11-15T15:13:13.55616-06:00"
     description: Install kube-state-metrics to generate and expose cluster-level metrics
     digest: 4cf6937890f21c0dde52df60c71ce71317417431d1d655bb7ee8a3caa942a6b5
     home: https://github.com/kubernetes/kube-state-metrics/
@@ -639,11 +656,11 @@ entries:
     sources:
     - https://github.com/kubernetes/kube-state-metrics/
     urls:
-    - https://charts.glen.dev/kube-state-metrics-2.9.0.tgz
+    - htps://charts.glen.dev/kube-state-metrics-2.9.0.tgz
     version: 2.9.0
   - apiVersion: v1
     appVersion: 1.9.7
-    created: "2020-10-13T19:45:39.254018-05:00"
+    created: "2020-11-15T15:13:13.555467-06:00"
     description: Install kube-state-metrics to generate and expose cluster-level metrics
     digest: edff31c7fecd0e957948ac89ba5c5e6da1d0d15344e3cff277e07e1d332cea2d
     home: https://github.com/kubernetes/kube-state-metrics/
@@ -663,11 +680,11 @@ entries:
     sources:
     - https://github.com/kubernetes/kube-state-metrics/
     urls:
-    - https://charts.glen.dev/kube-state-metrics-2.8.13.tgz
+    - htps://charts.glen.dev/kube-state-metrics-2.8.13.tgz
     version: 2.8.13
   - apiVersion: v1
     appVersion: 1.9.7
-    created: "2020-10-13T19:45:39.252497-05:00"
+    created: "2020-11-15T15:13:13.554738-06:00"
     description: Install kube-state-metrics to generate and expose cluster-level metrics
     digest: 1f4180f2311a0d7640dd2f838ed9f00b9f16b398b067c6cc92231b615f0995c6
     home: https://github.com/kubernetes/kube-state-metrics/
@@ -687,11 +704,11 @@ entries:
     sources:
     - https://github.com/kubernetes/kube-state-metrics/
     urls:
-    - https://charts.glen.dev/kube-state-metrics-2.8.12.tgz
+    - htps://charts.glen.dev/kube-state-metrics-2.8.12.tgz
     version: 2.8.12
   - apiVersion: v1
     appVersion: 1.9.7
-    created: "2020-10-13T19:45:39.250933-05:00"
+    created: "2020-11-15T15:13:13.554036-06:00"
     description: Install kube-state-metrics to generate and expose cluster-level metrics
     digest: 314b6de2c4ab3c99aef5916402e91e394e7d8bc2e27aa3c8434bf30b431b2441
     home: https://github.com/kubernetes/kube-state-metrics/
@@ -711,11 +728,11 @@ entries:
     sources:
     - https://github.com/kubernetes/kube-state-metrics/
     urls:
-    - https://charts.glen.dev/kube-state-metrics-2.8.11.tgz
+    - htps://charts.glen.dev/kube-state-metrics-2.8.11.tgz
     version: 2.8.11
   - apiVersion: v1
     appVersion: 1.9.5
-    created: "2020-10-13T19:45:39.24939-05:00"
+    created: "2020-11-15T15:13:13.553346-06:00"
     description: Install kube-state-metrics to generate and expose cluster-level metrics
     digest: 3d6b2a25c8d7b88258343aeb3a618aa029d72591758fc052946ed60684b9e058
     home: https://github.com/kubernetes/kube-state-metrics/
@@ -735,11 +752,11 @@ entries:
     sources:
     - https://github.com/kubernetes/kube-state-metrics/
     urls:
-    - https://charts.glen.dev/kube-state-metrics-2.8.0.tgz
+    - htps://charts.glen.dev/kube-state-metrics-2.8.0.tgz
     version: 2.8.0
   - apiVersion: v1
     appVersion: 1.9.5
-    created: "2020-10-13T19:45:39.24803-05:00"
+    created: "2020-11-15T15:13:13.552701-06:00"
     description: Install kube-state-metrics to generate and expose cluster-level metrics
     digest: 008c691f8299a7883f264061ea3b62ec917a3414aa8a5a38304fb4b61cb31eca
     home: https://github.com/kubernetes/kube-state-metrics/
@@ -759,22 +776,22 @@ entries:
     sources:
     - https://github.com/kubernetes/kube-state-metrics/
     urls:
-    - https://charts.glen.dev/kube-state-metrics-2.7.1.tgz
+    - htps://charts.glen.dev/kube-state-metrics-2.7.1.tgz
     version: 2.7.1
   kubeseal-webgui:
   - apiVersion: v1
     appVersion: 2.0.0
-    created: "2020-10-13T19:45:39.256094-05:00"
+    created: "2020-11-15T15:13:13.556561-06:00"
     description: A Helm chart for installing kubeseal-webgui
     digest: 79fbfbebfd0a4c02145a2db07a13c4535560b946248880c0d95864ee84c909e7
     name: kubeseal-webgui
     urls:
-    - https://charts.glen.dev/kubeseal-webgui-2.0.0.tgz
+    - htps://charts.glen.dev/kubeseal-webgui-2.0.0.tgz
     version: 2.0.0
   newrelic-infrastructure:
   - apiVersion: v1
     appVersion: 1.13.2
-    created: "2020-10-13T19:45:39.257473-05:00"
+    created: "2020-11-15T15:13:13.557108-06:00"
     description: A Helm chart to deploy the New Relic Infrastructure Agent as a DaemonSet
     digest: 7cbf2a3849e158aca6cde698521e3fb8354cf3b4ec0322a76e5c86905ca01547
     home: https://hub.docker.com/r/newrelic/infrastructure-k8s/
@@ -794,12 +811,12 @@ entries:
     - name: rk295
     name: newrelic-infrastructure
     urls:
-    - https://charts.glen.dev/newrelic-infrastructure-0.13.24.tgz
+    - htps://charts.glen.dev/newrelic-infrastructure-0.13.24.tgz
     version: 0.13.24
   prometheus:
   - apiVersion: v1
     appVersion: 2.19.0
-    created: "2020-10-13T19:45:39.279792-05:00"
+    created: "2020-11-15T15:13:13.573099-06:00"
     dependencies:
     - condition: kubeStateMetrics.enabled
       name: kube-state-metrics
@@ -824,11 +841,11 @@ entries:
     - https://github.com/prometheus/node_exporter
     - https://github.com/kubernetes/kube-state-metrics
     urls:
-    - https://charts.glen.dev/prometheus-11.10.2.tgz
+    - htps://charts.glen.dev/prometheus-11.10.2.tgz
     version: 11.10.2
   - apiVersion: v1
     appVersion: 2.19.0
-    created: "2020-10-13T19:45:39.274145-05:00"
+    created: "2020-11-15T15:13:13.5695-06:00"
     dependencies:
     - condition: kubeStateMetrics.enabled
       name: kube-state-metrics
@@ -853,11 +870,11 @@ entries:
     - https://github.com/prometheus/node_exporter
     - https://github.com/kubernetes/kube-state-metrics
     urls:
-    - https://charts.glen.dev/prometheus-11.10.1.tgz
+    - htps://charts.glen.dev/prometheus-11.10.1.tgz
     version: 11.10.1
   - apiVersion: v1
     appVersion: 2.19.0
-    created: "2020-10-13T19:45:39.268583-05:00"
+    created: "2020-11-15T15:13:13.564871-06:00"
     dependencies:
     - condition: kubeStateMetrics.enabled
       name: kube-state-metrics
@@ -882,11 +899,11 @@ entries:
     - https://github.com/prometheus/node_exporter
     - https://github.com/kubernetes/kube-state-metrics
     urls:
-    - https://charts.glen.dev/prometheus-11.10.0.tgz
+    - htps://charts.glen.dev/prometheus-11.10.0.tgz
     version: 11.10.0
   - apiVersion: v1
     appVersion: 2.16.0
-    created: "2020-10-13T19:45:39.263336-05:00"
+    created: "2020-11-15T15:13:13.561277-06:00"
     dependencies:
     - condition: kubeStateMetrics.enabled
       name: kube-state-metrics
@@ -909,12 +926,12 @@ entries:
     - https://github.com/prometheus/node_exporter
     - https://github.com/kubernetes/kube-state-metrics
     urls:
-    - https://charts.glen.dev/prometheus-11.0.2.tgz
+    - htps://charts.glen.dev/prometheus-11.0.2.tgz
     version: 11.0.2
   sealed-secrets:
   - apiVersion: v1
     appVersion: 0.9.7
-    created: "2020-10-13T19:45:39.281508-05:00"
+    created: "2020-11-15T15:13:13.573545-06:00"
     description: A Helm chart for Sealed Secrets
     digest: a0ef365d59483ea6b69d56e7d2160f38455a13659bdba0adf4791507caf3afbf
     home: https://github.com/bitnami-labs/sealed-secrets
@@ -926,12 +943,12 @@ entries:
       name: olib963
     name: sealed-secrets
     urls:
-    - https://charts.glen.dev/sealed-secrets-1.7.6.tgz
+    - htps://charts.glen.dev/sealed-secrets-1.7.6.tgz
     version: 1.7.6
   spot-termination-handler:
   - apiVersion: v1
     appVersion: 1.13.7-1
-    created: "2020-10-13T19:45:39.283119-05:00"
+    created: "2020-11-15T15:13:13.573949-06:00"
     description: The K8s Spot Termination handler handles draining AWS Spot Instances
       in response to termination requests.
     digest: b24c15cbfbb4aca9e0020d988b7e5ca90707c2ecffd01bbb2ccf912421c036cc
@@ -950,63 +967,63 @@ entries:
     sources:
     - https://github.com/kube-aws/kube-spot-termination-notice-handler
     urls:
-    - https://charts.glen.dev/spot-termination-handler-1.4.8.tgz
+    - htps://charts.glen.dev/spot-termination-handler-1.4.8.tgz
     version: 1.4.8
   ssl:
   - apiVersion: v2
     appVersion: 2.0.0
-    created: "2020-10-13T19:45:39.287524-05:00"
+    created: "2020-11-15T15:13:13.575607-06:00"
     description: A Helm chart for a hugo blog with argo ingress.
     digest: a2024e258fb24ead5351735c3d4d2e77a6afc4713820cd8c770dbc99e30cb132
     name: ssl
     type: application
     urls:
-    - https://charts.glen.dev/ssl-2.0.0.tgz
+    - htps://charts.glen.dev/ssl-2.0.0.tgz
     version: 2.0.0
   - apiVersion: v2
     appVersion: 1.1.0
-    created: "2020-10-13T19:45:39.286656-05:00"
+    created: "2020-11-15T15:13:13.57528-06:00"
     description: A Helm chart for a hugo blog with argo ingress.
     digest: 635e45c7b460508d2961591f79ab9f30709223f8523c0d523c9305214e6d34b5
     name: ssl
     type: application
     urls:
-    - https://charts.glen.dev/ssl-1.1.0.tgz
+    - htps://charts.glen.dev/ssl-1.1.0.tgz
     version: 1.1.0
   - apiVersion: v2
     appVersion: 1.0.2
-    created: "2020-10-13T19:45:39.285793-05:00"
+    created: "2020-11-15T15:13:13.574942-06:00"
     description: A Helm chart for a hugo blog with argo ingress.
     digest: 8391306ca1e6abb12ae255c45822fab12286d87ec24bcc6b1e09a736cc96ecb6
     name: ssl
     type: application
     urls:
-    - https://charts.glen.dev/ssl-1.0.2.tgz
+    - htps://charts.glen.dev/ssl-1.0.2.tgz
     version: 1.0.2
   - apiVersion: v2
     appVersion: 1.0.1
-    created: "2020-10-13T19:45:39.284919-05:00"
+    created: "2020-11-15T15:13:13.574601-06:00"
     description: A Helm chart for a hugo blog with argo ingress.
     digest: f436f2441c0bf9ac23db9b16bf16e539f6518ea3a7fa47c15a25ba2b217baa9d
     name: ssl
     type: application
     urls:
-    - https://charts.glen.dev/ssl-1.0.1.tgz
+    - htps://charts.glen.dev/ssl-1.0.1.tgz
     version: 1.0.1
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2020-10-13T19:45:39.284022-05:00"
+    created: "2020-11-15T15:13:13.574271-06:00"
     description: A Helm chart for a hugo blog with argo ingress.
     digest: b4e294f61aac9504ba2436157328c3568daf3e6547838a450615bafb98109c58
     name: ssl
     type: application
     urls:
-    - https://charts.glen.dev/ssl-1.0.0.tgz
+    - htps://charts.glen.dev/ssl-1.0.0.tgz
     version: 1.0.0
   velero:
   - apiVersion: v1
     appVersion: 1.2.0
-    created: "2020-10-13T19:45:39.295697-05:00"
+    created: "2020-11-15T15:13:13.580338-06:00"
     deprecated: true
     description: A Helm chart for velero
     digest: 77dc15ae5f46b6e078a1808938072128ed225c18ddd76d8235e9fa1324055bc7
@@ -1016,11 +1033,11 @@ entries:
     sources:
     - https://github.com/vmware-tanzu/velero
     urls:
-    - https://charts.glen.dev/velero-2.8.0.tgz
+    - htps://charts.glen.dev/velero-2.8.0.tgz
     version: 2.8.0
   - apiVersion: v1
     appVersion: 1.2.0
-    created: "2020-10-13T19:45:39.293989-05:00"
+    created: "2020-11-15T15:13:13.579701-06:00"
     deprecated: true
     description: A Helm chart for velero
     digest: a02b1f410b563cff303428ba4be47110dfc18612173792c89cb89bec02d504a8
@@ -1030,11 +1047,11 @@ entries:
     sources:
     - https://github.com/vmware-tanzu/velero
     urls:
-    - https://charts.glen.dev/velero-2.7.7.tgz
+    - htps://charts.glen.dev/velero-2.7.7.tgz
     version: 2.7.7
   - apiVersion: v1
     appVersion: 1.2.0
-    created: "2020-10-13T19:45:39.29224-05:00"
+    created: "2020-11-15T15:13:13.579056-06:00"
     deprecated: true
     description: A Helm chart for velero
     digest: 47e93170e3d82c3d4f65bce681fae857822eff476058bc02b429f7d37c9576af
@@ -1044,11 +1061,11 @@ entries:
     sources:
     - https://github.com/vmware-tanzu/velero
     urls:
-    - https://charts.glen.dev/velero-2.7.6.tgz
+    - htps://charts.glen.dev/velero-2.7.6.tgz
     version: 2.7.6
   - apiVersion: v1
     appVersion: 1.2.0
-    created: "2020-10-13T19:45:39.290778-05:00"
+    created: "2020-11-15T15:13:13.578388-06:00"
     deprecated: true
     description: A Helm chart for velero
     digest: de774f175cc0b0571914684219f9a35e1b3e98aeffcd40d6c426dd27a60fba59
@@ -1058,11 +1075,11 @@ entries:
     sources:
     - https://github.com/vmware-tanzu/velero
     urls:
-    - https://charts.glen.dev/velero-2.7.5.tgz
+    - htps://charts.glen.dev/velero-2.7.5.tgz
     version: 2.7.5
   - apiVersion: v1
     appVersion: 1.2.0
-    created: "2020-10-13T19:45:39.289161-05:00"
+    created: "2020-11-15T15:13:13.576237-06:00"
     deprecated: true
     description: A Helm chart for velero
     digest: e7c4a1437463d37d53b048333e38ea1bb05217d676b38d49eca98365841e3616
@@ -1072,6 +1089,6 @@ entries:
     sources:
     - https://github.com/vmware-tanzu/velero
     urls:
-    - https://charts.glen.dev/velero-2.7.4.tgz
+    - htps://charts.glen.dev/velero-2.7.4.tgz
     version: 2.7.4
-generated: "2020-10-13T19:45:39.176074-05:00"
+generated: "2020-11-15T15:13:13.511587-06:00"
